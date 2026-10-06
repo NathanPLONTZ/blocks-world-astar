@@ -1,0 +1,90 @@
+# --- Course documents: never published ---------------------------------------
+# Handout, report and presentation are kept out of the repository.
+*.pdf
+*.pptx
+*.ppt
+*.docx
+*.doc
+*.odt
+*.odp
+DIAPO_IA.pptx
+*non evalue*
+*non*valu*
+
+# --- Generated output --------------------------------------------------------
+# Search traces and exported results, if a run is redirected to a file.
+*.log
+*.out
+output/
+results/
+runs/
+
+# --- Data --------------------------------------------------------------------
+data/
+*.csv
+*.tsv
+*.json
+*.pickle
+*.pkl
+*.npy
+*.npz
+
+# --- Python ------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --- Virtual environments ----------------------------------------------------
+.venv/
+venv/
+ENV/
+env/
+.python-version
+
+# --- Testing and coverage ----------------------------------------------------
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.ruff_cache/
+
+# --- Visual Studio / Visual Studio Code --------------------------------------
+.vs/
+.vscode/
+*.sln
+*.pyproj
+*.pyproj.user
+*.suo
+*.user
+*.vsidx
+
+# --- Editors and operating system --------------------------------------------
+.idea/
+*.swp
+*.swo
+*~
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
